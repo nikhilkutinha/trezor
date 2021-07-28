@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '../node_modules/highlight.js/styles/vs2015.css';
+
+
+html, body { font-family: 'Inter', sans-serif; }
+
+.hljs {
+    background: none;
+}
+
+.inputarea.monaco-mouse-cursor-text {
+    opacity: 0;
+  }

@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "trezor"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.66.0"
+SQLAlchemy = "^1.4.20"
+uvicorn = "^0.14.0"
+alembic = "^1.6.5"
+pydantic = {extras = ["email", "dotenv"], version = "^1.8.2"}
+psycopg2 = "^2.9.1"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = "^1.7.4"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^21.6b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
