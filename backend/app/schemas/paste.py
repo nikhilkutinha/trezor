@@ -14,11 +14,6 @@ class PasteCreate(PasteBase):
     pass
 
 
-# Properties to receive on item update
-class PasteUpdate(PasteBase):
-    pass
-
-
 # Properties shared by models stored in DB
 class PasteInDBBase(PasteBase):
     id: str
